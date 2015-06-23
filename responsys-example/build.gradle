@@ -4,6 +4,7 @@ buildscript {
     }
     repositories {
         mavenLocal()
+        mavenCentral()
         maven { url "https://repo.grails.org/grails/core" }
     }
     dependencies {
@@ -72,7 +73,8 @@ dependencies {
 
     console "org.grails:grails-console"
 
-    //compile "cxf-client"
+    compile "org.grails.plugins:cxf-client:2.1.1"
+    //compile ":wslite:0.7.2.0"
 }
 
 task wrapper(type: Wrapper) {
