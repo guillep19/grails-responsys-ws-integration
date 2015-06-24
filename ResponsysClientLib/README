@@ -1,0 +1,10 @@
+
+Genere un cliente de la api de Responsys usando axis2 con:
+
+> wsdl2java -uri http://ws5.responsys.net/webservices/services/ResponsysWSService\?wsdl -wv 1.1 -u -d adb -s -p com.rsys.ws -sp
+
+Lo linkee con axis2 y generé un jar en:
+
+  ./out/artifacts/ResponsysClientLib_jar/ResponsysClientLib.jar
+
+

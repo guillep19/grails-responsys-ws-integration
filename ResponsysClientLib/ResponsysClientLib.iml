@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///opt/axis2-1.6.2" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file:///opt/axis2-1.6.2/samples/version/target/apidocs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file:///opt/axis2-1.6.2/samples/databinding/client/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/databinding/service/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/faulthandling/client/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/faulthandling/service/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/java_first_jaxws/src/main" />
+          <root url="file:///opt/axis2-1.6.2/samples/jaxws-addressbook/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/jaxws-calculator/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/jaxws-dynamic/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/jaxws-interop/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/jaxws-samples/src/main" />
+          <root url="file:///opt/axis2-1.6.2/samples/jaxws-samples/src/main/org/apache/axis2/jaxws/samples/echo" />
+          <root url="file:///opt/axis2-1.6.2/samples/jaxws-version/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/mtom/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/pojo/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/pojoguide/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/pojoguidespring/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/quickstart/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/quickstartadb/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/quickstartaxiom/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/quickstartjibx/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/quickstartxmlbeans/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/servicelifecycle/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/soapwithattachments/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/userguide/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/version/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/yahoojsonsearch/src" />
+          <root url="file:///opt/axis2-1.6.2/samples/yahoorestsearch/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///opt/axis2-1.6.2/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///opt/axis2-1.6.2/lib" />
+        </SOURCES>
+        <jarDirectory url="file:///opt/axis2-1.6.2/lib" recursive="false" />
+        <jarDirectory url="file:///opt/axis2-1.6.2/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+  </component>
+</module>

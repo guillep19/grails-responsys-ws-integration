@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Class-Path: bcel-5.1.jar mail-1.4.jar regexp-1.2.jar antlr-2.7.7.jar j
+ axen-1.1.1.jar juli-6.0.16.jar xalan-2.7.0.jar httpcore-4.0.jar jaxb-
+ api-2.1.jar jibx-run-1.2.jar log4j-1.2.15.jar neethi-3.0.2.jar wsdl4j
+ -1.6.2.jar jalopy-1.5rc3.jar jibx-bind-1.2.jar tribes-6.0.16.jar acti
+ vation-1.1.jar commons-io-1.4.jar jaxb-xjc-2.1.7.jar jsr311-api-1.0.j
+ ar mex-1.6.2-impl.jar wstx-asl-3.2.9.jar xmlbeans-2.3.0.jar axis2-adb
+ -1.6.2.jar commons-cli-1.2.jar jaxb-impl-2.1.7.jar woden-api-1.0M9.ja
+ r XmlSchema-1.4.7.jar axiom-api-1.2.13.jar axiom-dom-1.2.13.jar axis2
+ -jibx-1.6.2.jar axis2-json-1.6.2.jar axis2-saaj-1.6.2.jar jettison-1.
+ 0-RC2.jar xml-resolver-1.2.jar axiom-impl-1.2.13.jar axis2-corba-1.6.
+ 2.jar axis2-jaxws-1.6.2.jar commons-codec-1.3.jar jaxws-tools-2.1.3.j
+ ar axis2-jaxbri-1.6.2.jar axis2-kernel-1.6.2.jar axis2-spring-1.6.2.j
+ ar axis2-codegen-1.6.2.jar axis2-metadata-1.6.2.jar axis2-xmlbeans-1.
+ 6.2.jar woden-impl-dom-1.0M9.jar axis2-java2wsdl-1.6.2.jar commons-lo
+ gging-1.1.1.jar axis2-ant-plugin-1.6.2.jar axis2-clustering-1.6.2.jar
+  axis2-mtompolicy-1.6.2.jar commons-fileupload-1.2.jar commons-httpcl
+ ient-3.1.jar axis2-adb-codegen-1.6.2.jar axis2-fastinfoset-1.6.2.jar 
+ apache-mime4j-core-0.7.2.jar woden-impl-commons-1.0M9.jar geronimo-jt
+ a_1.1_spec-1.1.jar axis2-transport-http-1.6.2.jar axis2-transport-loc
+ al-1.6.2.jar geronimo-jaxws_2.2_spec-1.0.jar geronimo-saaj_1.3_spec-1
+ .0.1.jar axis2-soapmonitor-servlet-1.6.2.jar geronimo-annotation_1.0_
+ spec-1.1.jar geronimo-stax-api_1.0_spec-1.0.1.jar geronimo-ws-metadat
+ a_2.0_spec-1.1.2.jar
+
