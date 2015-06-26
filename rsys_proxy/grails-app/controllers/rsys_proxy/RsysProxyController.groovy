@@ -1,5 +1,7 @@
 package rsys_proxy
 
+import com.rsys.ws.*
+
 class RsysProxyController {
 
     def index() { }
@@ -8,19 +10,33 @@ class RsysProxyController {
 
     def test() {
         try {
-            com.rsys.ws.Login login = new com.rsys.ws.Login();
-            com.rsys.ws.ResponsysWSServiceStub stub;
-            stub = new com.rsys.ws.ResponsysWSServiceStub();
+            ResponsysWSServiceStub stub = new ResponsysWSServiceStub();
             stub._getServiceClient().getOptions().setManageSession(true);
 
+            Login login = new Login();
             login.setUsername("app_user");
             login.setPassword("App_user3");
 
-            com.rsys.ws.LoginResponse loginResponse = stub.login(login);
-            com.rsys.ws.LoginResult loginResult = loginResponse.getResult();
+            LoginResponse loginResponse = stub.login(login);
+            LoginResult loginResult = loginResponse.getResult();
 
             String sessionId = loginResult.getSessionId();
-            render "Funciona, para vos Naza"
+
+            render "Me conecte a Responsys, hice login y el sessionID es $sessionId\n\n"
+            SessionHeader sessionHeader = new SessionHeader();
+            sessionHeader.setSessionId(sessionId);
+
+            ListFoldersResponse folders = stub.listFolders(new ListFolders(), sessionHeader);
+            FolderResult[] folderList = folders.getResult();
+            render "El servicio de folders me retorna: \n"
+            if (folderList != null) {
+                for (FolderResult name : folderList) {
+                    String str_name = name.getName()
+                    render "  - $str_name\n"
+                }
+            } else {
+                render "No pude acceder a ver los folders :("
+            }
         } catch (Exception ex) {
             render "No funciona :("
         }
